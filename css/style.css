@@ -5,24 +5,13 @@
  
     background: url("teamphoto1.jpg") no-repeat center center;
     opacity: 1;
+    background-size: cover;
     background-position: center;
     background-attachment:fixed;
     background-color: rgba(188, 184, 184, 0.25);
     filter: contrast(100%);
 }
 
-
-@media screen and (min-width: 651px) {
- .jumbotron {
-background-size: cover;
-  }
-}
-
-@media screen and (max-width: 650px) {
- .jumbotron {
-background-size: 100% auto;
-  }
-}
 
  
 .jumbotron:hover .overlay{
@@ -60,8 +49,8 @@ background-size: 100% auto;
 .nameRow li{
     right: 5%;
     display: inline-block;
-    margin: 0 0%;
-    width:10%;
+    margin: 0 15px;
+    width:15%;
     color: white;
     font-family: 'Calibri', sans-serif;  
     text-transform: uppercase;
@@ -78,7 +67,7 @@ background-size: 100% auto;
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 700px) {
   .nameRow li {
-  font-size: 8px;
+  font-size: 10px;
     font-weight: 400;
   }
 }
