@@ -12,6 +12,12 @@
     filter: contrast(100%);
 }
 
+@media screen and (min-width: 701px) {
+ .jumbotron {
+background-size: 100% auto;
+  }
+}
+
  
 .jumbotron:hover .overlay{
     opacity: 1;
