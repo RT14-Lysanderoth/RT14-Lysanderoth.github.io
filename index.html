@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robot Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class='container'>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">LYSANDEROTH</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<!-- <ul class="nav navbar-nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#goal">GOAL</a></li>
+					<li><a href="#mechanical">MECHANICAL</a></li>
+					<li><a href="#electrical">ELECTRICAL</a></li>
+					<li><a href="#software">SOFTWARE</a></li>
+					<li><a href="#improvements">IMPROVEMENTS</a></li>
+					<li><a href="#media">MEDIA COVERAGE</a></li>
+					<li><a href="#photo">PHOTO GALLERY</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class = "jumbotron" > 
+		<div class="container">
+			<div class = "overlay">
+				<div class = "title">LYSANDEROTH</div>
+				<div class = "nameRow">
+					<ul>
+						<li>Priyansh Malik </li>
+						<li>Devika Vishwanath</li>
+						<li> Samia Sama</li>
+						<li>Shafkat Khondker</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="white" id=goal>
+
+			<h2>GOAL</h2>
+			<p class="textCenter">Build an autonomous robot that can line follow, detect edges, avoid obstacles, cross gaps, detect and distinguish between infrared frequencies, detect and pick up Ewoks and return them to the safety start position. </p>
+
+
+			<div class="row topPadding2">
+
+				<div class="col-lg-6">
+					<img src="images/compsurface.jpg">
+					<p class="textCenter">A mock-up of the competition surface highlighting some of the biggest obstacles to overcome.</p>
+
+				</div>
+
+
+				<div class="col-lg-6">
+					<img src="images/realsurface.jpg">
+					<p class="textCenter">The competition surface where teams went head to head to pick up and return the maximum number of Ewoks within 2 minutes.</p>
+
+				</div>
+
+			</div>
+
+
+			<div class="row topPadding2">
+
+
+				<div class="col-lg-6" >
+					<img src="bestPic.jpg" >
+				</div>
+
+				<div class="col-lg-6">
+					<div class="video">
+
+						<iframe src="https://drive.google.com/file/d/1oLLh3AdEuy90pzTMHs-UZsp1TVyPCavk/preview" width="700" height="500" allowfullscreen></iframe>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+
+				<div class="col-lg-5" >
+					<p class="textCenter">Lysanderoth: The Autonomous Robot</p>
+				</div>
+				<div class="col-lg-1"></div>
+
+				<div class="col-lg-6">
+					<p class="textCenter">Lysanderoth in action; successfully picking up and returning 3 Ewoks under a minute.</p>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	<div  id="mechanical" class="grey">
+		<div class ="container">
+			<h2>MECHANICAL</h2>
+			<div class= row>
+				<div class="col-xs-9 col-lg-10"></div>
+				<div class="col-xs-3 col-lg-2">
+					<a href="https://bit.ly/2OWYyg3 " target="_blank" ><img src="images/logo3.png"></a>
+					<p class="smallText">CAD Model of Chassis</p>
+				</div>
+			</div>
+
+			<div class="row topPadding2">
+
+
+				<div class="col-lg-5">
+					<img src="images/chassis_nobackground.png">
+
+					<h3>Chassis</h3>
+
+					<p>			  
+						<div class="listFormat">      
+							<ul>
+								<li>After designing a CAD model of our chassis using Solidworks and Onshape we laser cut individual parts and assembled using tab and slot joint method.</li>
+								<li>Our final chassis had
+									<ul>
+										<li>Space on the rear and underside for electrical components</li>
+										<li>Claws mounted on the sides of the chassis</li>
+										<li>A scissor lift/zipline mechanism mounted on the base</li>
+									</ul>
+								</li>
+							</ul>      
+						</div>   
+					</p>
+
+				</div>
+
+				<div class="col-lg-2"></div>
+
+				<div class="col-lg-5">
+					<img src="images/drivetrainNoback.png">
+					<h3>Drive Train</h3>
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>The drive train was designed to allow for a compact chassis and simple chassis</li>
+								<li>The robot is powered using two geared Barber-Coleman motors with a gear ratio of 3:1</li>
+								<li>Motor mounts were designed using Onshape and 3D printed. This dampened the vibrations and provided a secure hold on the motors.</li>
+							</ul>
+						</div>
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="row betweenRowPadding">
+
+
+				<div class="col-lg-5">
+					<img src="images/clawNobG.png">
+
+					<h3>Claws</h3>
+					<p>
+						<div class="listFormat">
+
+							<ul>
+								<li>A claw was mounted on both sides of the robot which allowed for decreased uncertainty in retrieving objects.</li>
+								<li>The small size of the claws allows for the robot to fit between the arch way with ease</li>
+								<li>The claw system was designed to cover as wide range of area as possible allowing for consistent results regardless of object placement.</li>
+								<li>The claws arms were curved to maximize contact area with objects</li>
+								<li>A polycarbonate build allowed the claw mechanism to be extremely robust</li>
+							</ul>
+						</div>
+					</p>
+
+				</div>
+
+				<div class="col-lg-2"></div>
+
+				<div class="col-lg-5">
+					<img src="images/plankNoBg.png">
+					<h3>Bridge System</h3>
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>To cross the gaps the robot used two sheet metal bridges</li>
+								<li>A single servo was used to drop the bridge when an edge is detected</li>
+								<li>The cut outs in the bridges helped ensure one servo can drop both bridges at different times</li>
+								<li>The sides of the bridges were curved to brush against the robot if the robot was a bit disaligned</li>
+							</ul>
+						</div>
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="row betweenRowPadding">
+
+
+				<div class="col-lg-5">
+					<img src="images/scissor lift.png">
+
+					<h3>Basket Lift</h3>
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>To return the collected Ewoks back to friendly territory a basket lifting mechanism was utilized in conjunction with the competition surface zipline</li>
+								<li>A scissor lift mounted onto the base of the robot was used to lift the basket and hook onto a metal zipline</li>
+								<li>A Barber-Coleman motor was used with a lead screw to increase and decrease height of the platform</li>
+							</ul>
+						</div>
+					</p>
+
+				</div>
+
+				<div class="col-lg-2"></div>
+
+				<div class="col-lg-5">
+					<img src="images/tilting.jpg">
+					<h3>Tilt Lift</h3>
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>To return the first 3 Ewoks back to start the robot included a basket tilting mechanism</li>
+								<li>A servo motor tilts the basket filled with Ewoks when limit switches on the rear of the car are pressed.</li>
+								<li>Allows for certainty in position when carrying out the dropping action</li>
+							</ul>
+						</div>
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="white" id="electrical">
+		<div class="container">
+			<h2>Electrical</h2>
+			<h3 class="betweenRowPadding">Infrared Frequency Detection</h3>
+
+			<div class="row betweenRowPadding">
+				<div class="container">
+					<div class="col-lg-12">
+						<img src="images/irSchematic.png">
+						<p class="textCenter">The circuit was used to detect 10kHz and 1kHz frequency, which was processed in the microcontroller</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row betweenRowPadding">
+				<div class="col-lg-6">
+					<img src = "images/IR_Photo.jpg">
+					<p class="textCenter">Soldered IR Circuit</p>
+				</div>
+				<div class="col-lg-6">
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>The IR circuit detects and distinguishes between 10kHz signal and 1kHz signal emitted from an IR beacon.</li>
+								<li>The outputs from the circuit is fed into the Analog inputs of the microcontroller. </li>
+								<li>The OpAmps are easily replaceable since we soldered 8 pin sockets onto the PCB.</li>
+								<li>Due to the modular design of the PCB, it was very easy to debug the IR circuit.</li>
+								<li>Using a potentiometer helped us to adjust the gain of the amplifier according to different IR beacons. </li>
+								<li>The IR circuit was one of the most reliable components of our robot.</li>
+							</ul>
+						</div>
+					</p>
+				</div>
+				
+
+			</div>
+
+			<h3 class="betweenRowPadding">H-Bridge</h3>
+
+			<div class="row">
+				<div class="container">
+					<div class="col-lg-12">
+						<img src="images/hbridge schematic.png">
+						<p class="textCenter">H-bridges were used to control the motor direction of the robot.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row betweenRowPadding">
+				<div class="col-lg-6">
+					<img src = "images/hbridges.jpg">
+					<p class="textCenter">Two Soldered H-bridge circuits secured under the chassis</p>
+				</div>
+				<div class="col-lg-6">
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>Although the microcontoller has built in H-bridges, it can supply only limited current; therefore, we used external H-bridges.</li>
+								<li>We supplied a regulated voltage of 15V to the motors from a LiPo battery.</li>
+								<li>The MOSFETs we used for the H-bridge were fully replaceable since we used female header pins on the PCB. This saved us a lot of time since we did not have to remake PCBs.</li>
+								<li>The well-thought-out compact design helped us to fit the H-bridges under the chassis.</li>
+								<li>The H-bridges were secured onto a separate PCB bolted under the Chassiss using male and female header pins. This made the circuits easily removable and easy to debug</li>
+							</ul>
+						</div>
+					</p>
+				</div>
+				
+
+			</div>
+
+			<h3 class="betweenRowPadding">Sensors</h3>
+
+			<div class="row">
+				<div class="col-lg-3">
+					<img src="images/DistanceSensor.jpg">
+					<h4> Distance Sensor for Object Detection</h4>
+					<p class="textCenter">Two VL53L0X Time-of-Flight distance sensors were used on either side to accurately detect the Ewoks. Using a state machine we controlled turning on and off the sensors to avoid false detection.</p>
+				</div>
+
+				<div class="col-lg-3">
+					<img src="images/qrdSized.jpg">
+					<h4> QRD for Line Following</h4>
+					<p class="textCenter">Two QRD's placed the width of black tape apart to detect voltage difference due to contrast. The QRD's were very close to the ground, enclosed in a casing to reduce noisy signal. PID control was used to line follow.</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="images/casing.jpg">
+					<h4> Phototransistor for IR detection</h4>
+					<p class="textCenter">The phototransistor was securely held in a casing at an angle based on the position of the robot on the track relative to the frequency generator, to ensure maximum exposure to IR.</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="images/sonarSized.jpg">
+					<h4> Sonar for Edge Sensing</h4>
+					<p class="textCenter">Sonar's placed ahead of the robot ensured edge detection ahead of time and allowed to check for false edges by taking multiple readings and taking the average.</p>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="grey" id="software">
+		<div class="container">
+			<h2>Software</h2>
+
+			<div class="row betweenRowPadding">
+				<h3>Micro-controller</h3>
+				<div class="col-lg-6 betweenRowPadding">
+					<img src = "images/tinah.jpg">
+					<p class="textCenter">TINAH Micro-controller</p>
+				</div>
+				<div class="col-lg-6">
+					<p>
+						<div class="listFormat">
+							TINAH is an extension shield designed and built for the ENPH 253 course. The TINAH board connects to the Wiring Board, an open-source electronics IO board that is similar to Arduino boards.The TINAH board design was inspired by the Handyboard, a Motorola 6811-based microcontroller system designed for educational, hobbyist, and industrial robotics applications. Available features: <br><br>
+
+							<ul>
+								<li>Four DC motor outputs connected to on-board H-bridge drivers (9V, 1A/motor)</li>
+								<li>Three RC Servo motor outputs</li>
+								<li>Buffered digital and analog IO pins (for protecting the Wiring board)</li>
+								<li>Two buttons and two knobs for on-board control</li>
+								<li>T16×2 character LCD</li>
+								<li>Enable and direction pins for external motor control (5V logic)</li>
+							</ul>
+						</div>
+					</p>
+				</div>
+				
+
+			</div>
+
+			<div class="row betweenRowPadding">
+				<h3>Simplified State Machine</h3>
+				<div class="col-lg-1 col-md-0"></div>
+				<div class="col-lg-10 col-md-12">
+					<img src = "images/simplifiedstate.png">
+					<p class="textCenter">We used an event based state machine for the decision making process of our robot. The diagram above highlights the logic used during each state and the events that triggered a change in state.</p>
+				</div>
+				<div class="col-lg-1 col-md-0"></div>
+			</div>
+
+			<div class= row>
+				<div class="col-xs-3 col-lg-5"></div>
+
+				<div class="col-xs-3 col-lg-1">
+					<a href="https://drive.google.com/file/d/1jAad1me1Wy2dngRwmkAd28E-rrx7Uh9Y/view?usp=sharing" target="_blank" ><img src="images/drive.png"></a>
+					<p class="smallText">Complete State Diagram</p>
+				</div>
+
+				<div class="col-xs-3 col-lg-1">
+					<a href="https://github.com/RobotTeam14/lysanderoth" target="_blank" ><img src="images/github.png"></a>
+					<p class="smallText">C++ Code</p>
+				</div>
+
+				<div class="col-xs-3 col-lg-5"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="white" id="improvements">
+		<div class="container">
+			<h2>Improvements</h2>
+			<div class="row betweenRowPadding">
+				<div class="col-lg-6">
+					<h3>Technical</h3>
+
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>Spending more time on the overall wiring design at the beginning. </li>
+								<li>Solder the tips of all header pins going into the TINAH in order to ensure secure connections.</li>
+								<li>Take into consideration the weight distribution of the chassis in order to prevent it from tilting back while going up the second bridge. </li>
+								<li>Easily replaceable mechanical components, such as the servo motors. </li>
+								<li>A second IR circuit soldered as a backup, as that was the most time consuming circuit to make. </li>
+								<li>Start writing the software from the very begining instead of waiting for a physical prototype.</li>
+							</ul>
+						</div>
+					</p>
+
+				</div>
+				<div class="col-lg-6">
+					<h3>Logistics</h3>
+					<p>
+						<div class="listFormat">
+							<ul>
+								<li>Accounting for the time for debugging while planning project timelines. </li>
+								<li>Better time management in terms of not staying stuck on one component for a long time; instead moving on to something else and asking for help when available. </li>
+								<li>Put more effort into following gantt chart, and making a revised gantt chart.</li>
+								
+
+							</ul>
+						</div>
+					</p>
+				</div>
+				
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+	<div class="grey" id="media">
+		<div class="container">
+			<h2>Media Coverage</h2>
+
+			<div class="row topPadding2">
+
+
+				<div class="col-lg-6" >
+					<div class="video">
+
+						<iframe src="https://webapps.9c9media.com/vidi-player/1.5.2/share/iframe.html?currentId=1459518&config=ctvnews/share.json&kruxId=ImoeZsch&cid=%5B%7B%22contentId%22%3A1459518%2C%22ad%22%3A%7B%22adsite%22%3A%22ctv.ctvnews%22%2C%22adzone%22%3A%22embed%22%7D%7D%5D" width="560" height="315"frameborder="0" allowfullscreen></iframe>
+
+					</div>
+				</div>
+
+				<div class="col-lg-1"></div>
+
+				<div class="col-lg-4">
+					<a href="https://www.peacearchnews.com/trending-now/star-wars-robots-to-the-rescue-at-ubc-annual-competition/" target="_blank"><img src="images/news.jpg"> </a>
+
+				</div>
+				<div class="col-lg-1"></div>
+
+			</div>
+
+		</div>
+
+		<div class="row betweenRowPadding">
+
+
+			<div class="col-lg-6" >
+				<p class="textCenter">News Covered By: BC CTV</p>
+
+			</div>
+
+			<div class="col-lg-1"></div>
+
+			<div class="col-lg-4">
+				<p class="textCenter">News Covered By: Peace Arch News</p> <br>
+
+			</div>
+			<div class="col-lg-1"></div>
+
+		</div>
+
+	</div>
+
+
+</div>
+</div>
+
+<div class="white" id="photo">
+	<div class="container">
+		<h2>Photo Gallery</h2>
+	</div>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="firstPicture.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+
+		<div class="item">
+			<img src="groupPicture.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="robotpic.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+		<div class="item">
+			<img src="turning1.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="turning2.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+
+		<div class="item">
+			<img src="shupsPics.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+		
+
+		<div class="item">
+			<img src="pics2.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+		
+		
+		<div class="item">
+			<img src="pics4-1.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+		
+		
+		<div class="item">
+			<img src="groupPics.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="drivePhoto.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="ewok2.jpg">
+			<div class="carousel-caption">
+			</div>
+		</div>				
+
+
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<script
+src="http://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
