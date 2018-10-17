@@ -11,9 +11,7 @@
     background-color: rgba(188, 184, 184, 0.25);
     filter: contrast(100%);
 }
-@media screen and (max-width: 500px) {
-    .jumbotron{background-size:80% 40%;}
-}
+
  
 .jumbotron:hover .overlay{
     opacity: 1;
