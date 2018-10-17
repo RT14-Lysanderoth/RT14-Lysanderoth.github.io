@@ -12,9 +12,9 @@
     filter: contrast(100%);
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (max-width: 700px) {
  .jumbotron {
-background-size: auto 100%;
+background-size: 100% auto;
   }
 }
 
