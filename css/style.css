@@ -60,8 +60,8 @@ background-size: 100% auto;
 .nameRow li{
     right: 5%;
     display: inline-block;
-    margin: 0 15px;
-    width:15%;
+    margin: 0 0%;
+    width:10%;
     color: white;
     font-family: 'Calibri', sans-serif;  
     text-transform: uppercase;
