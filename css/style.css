@@ -443,7 +443,7 @@ line-height: 12px;
     .container{max-width: 600px;width: 600px;}
 }
 @media (min-width: 768px) {
-    .container{max-width: 900px;}
+    .container{max-width: 950px;}
 }
 @media (min-width: 992px) {
     .container{max-width: 950px;}
