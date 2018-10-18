@@ -74,27 +74,13 @@ html, body {
     display: inline-block;
     margin: 0 15px;
     width:15%;
+        font-size: 15px;
+    font-weight: 500;
     color: white;
     font-family: 'Calibri', sans-serif;  
     text-transform: uppercase;
 
 }
-
-@media screen and (min-width: 701px) {
- .nameRow li {
-    font-size: 15px;
-    font-weight: 500;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 700px) {
-  .nameRow li {
-  font-size: 10px;
-    font-weight: 400;
-  }
-}
-
  
  
 .title{
@@ -229,7 +215,7 @@ line-height: 19px;
 	position:relative;
 	width:100%;
 	height: 0%;
-	padding-bottom: 40%;
+	padding-bottom: 50%;
 	padding-top:10%;
 }
 
@@ -349,7 +335,7 @@ line-height: 14px;
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 700px) {
   .smallText {
-    	font-size: 10px;
+    	font-size: 7px;
 line-height: 12px;
   }
 }
