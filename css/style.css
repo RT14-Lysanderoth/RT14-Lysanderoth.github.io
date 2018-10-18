@@ -57,32 +57,83 @@ html, body {
  
 }
 
+@media screen and (max-width: 700px) {
+  .nameRow {
+    visibility: hidden;
+
+  }
+
+  .title{
+    visibility: hidden;
+  }
+
+  .jumbotron:hover .overlay{
+    opacity: 0;
+}
+ 
+
+}
+
 
  
 .nameRow{
-    text-align:center;
-    margin:auto;
-    width:90%;
+  text-align:center;
+  margin:auto;
+  width:90%;
 }
 .nameRow ul{
-        margin:0 auto;
-        width: 90%;
+    margin:0 auto;
+    width: 100%;
 }
- 
-.nameRow li{
-    right: 5%;
-    display: inline-block;
-    margin: 0 15px;
-    width:15%;
-        font-size: 15px;
-    font-weight: 500;
-    color: white;
-    font-family: 'Calibri', sans-serif;  
-    text-transform: uppercase;
+
+.nameRow div{
+  padding-top: 0px;
 
 }
- 
- 
+
+
+.nameRow li{
+  right: 5%;
+  display: inline-block;
+  margin: 0 15px;
+  width:15%;
+  color: white;
+  font-family: 'Calibri', sans-serif;  
+  text-transform: uppercase; 
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 701px) {
+  .mobilenameRow {
+    visibility: hidden;
+
+  }
+  }
+
+.mobilenameRow{
+  text-align:center;
+  margin:auto;
+  width:90%;
+}
+.mobilenameRow ul{
+    margin:0 auto;
+    width: 100%;
+}
+
+.mobilenameRow li{
+  right: 5%;
+  display: inline-block;
+  margin: 0 15px;
+  width:15%;
+  color: #696969;
+  font-family: 'Calibri', sans-serif;  
+  text-transform: uppercase; 
+  font-size: 8px;
+  font-weight: 500;
+}
+
+
 .title{
   width: 100%;
   margin: auto;
