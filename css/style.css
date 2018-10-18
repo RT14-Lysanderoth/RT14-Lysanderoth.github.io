@@ -194,6 +194,8 @@ h2{
 	font-family: Calibri, sans-serif;
 	text-align: center;
 	color: #696969;
+    text-transform: uppercase;
+
 }
 
 @media screen and (min-width: 701px) {
@@ -236,7 +238,7 @@ p{
 			font-family: Calibri, sans-serif;
 		color:#696969;
 		
-		font-weight: 200;
+		font-weight: 160;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
