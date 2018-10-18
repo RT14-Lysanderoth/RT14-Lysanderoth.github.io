@@ -230,10 +230,11 @@ p{
 	color:#484848;
 }
 
+
 .textCenter {	
 	text-align: center;
 			font-family: Calibri, sans-serif;
-		color:		#484848;
+		color:#585858;
 		
 		font-weight: 200;
 }
@@ -251,6 +252,7 @@ line-height: 21px;
   .textCenter {
     	font-size: 15px;
 line-height: 19px;
+font-weight: 450;
   }
 }
 
@@ -313,9 +315,8 @@ h3{
 		text-align: left;
 
 		font-family: Calibri, sans-serif;
-		color:		#484848;
+		color:#585858;
 		
-		font-weight: 200;
 
 }
 
@@ -324,6 +325,7 @@ h3{
  .listFormat {
     	font-size: 18px;
 line-height: 21px;
+    font-weight: 200;
   }
 }
 
@@ -332,6 +334,7 @@ line-height: 21px;
   .listFormat {
     	font-size: 15px;
 line-height: 19px;
+    font-weight: 350;
   }
 }
 
